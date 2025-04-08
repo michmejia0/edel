@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+     <!--barra de menu responsiva-->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Gatos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./inicio.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./caracteristicas.html">Caracteristicas de los gatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./comida.html">Que deben comer?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ver más...
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./vivienda.html">Donde viven los gatos?</a></li>
+                  <li><a class="dropdown-item" href="./edad.html">Cuanto viven los gatos?</a></li>
+                  <li><a class="dropdown-item" href="./fotos.html">fotos de gatos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--termina barra de menu-->
+     <!-- titulo -->
+  <header class="bg-light text-center p-5">
+    <h1 class="display-4">¿Qué deben comer los gatos?</h1>
+    <p class="lead">Guía básica sobre la alimentación segura para felinos domésticos.</p>
+  </header>
+
+  <!-- Alimentos permitidos -->
+  <section id="alimentos" class="container my-5">
+    <h2><i class="bi bi-check"></i> Alimentos seguros para gatos</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pollo cocido</h5>
+            <p class="card-text">Fuente magra de proteína. Sin sal ni condimentos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pescado (ocasional)</h5>
+            <p class="card-text">Como atún o salmón, bien cocido y sin espinas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Arroz y zanahoria</h5>
+            <p class="card-text">En pequeñas cantidades, cocidos y blandos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alimentos prohibidos -->
+  <section id="prohibidos" class="bg-warning-subtle p-5">
+    <div class="container">
+      <h2><i class="bi bi-x"></i>Alimentos que los gatos no deben comer</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Chocolate</li>
+        <li class="list-group-item">Cebolla y ajo</li>
+        <li class="list-group-item">Alcohol</li>
+        <li class="list-group-item">Leche (puede causar intolerancia)</li>
+        <li class="list-group-item">Uvas y pasas</li>
+      </ul>
+    </div>
+  </section>
+    <!-- FOOTER-->
+    <footer class="bg-dark text-white text-center p-3">
+        <p><i class="bi bi-c-circle"></i> 2025 Gatos. Todos los derechos reservados. </p>
+      </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
